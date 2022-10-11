@@ -1,7 +1,7 @@
 package more;
 import java.lang.*;
 
-public class Brod {
+public abstract class Brod {
     public int brojposade;
     public String naziv;
     public Mornar kapetan = new Mornar();
@@ -37,5 +37,7 @@ public class Brod {
     public Mornar dodajMorn(Mornar a){
 
     }
+
+    public abstract Brod napadni(Brod a);
 
 }
