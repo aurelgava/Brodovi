@@ -38,6 +38,6 @@ public abstract class Brod {
 
     }
 
-    public abstract Brod napadni(Brod a);
+    public abstract void napadni(Brod a);
 
 }
