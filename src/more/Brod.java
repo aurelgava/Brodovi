@@ -4,7 +4,11 @@ import java.lang.*;
 public class Brod {
     int brojposade;
     String naziv;
-    Mornar kapetan = new Mornar(Nikola, 90);
+    Mornar kapetan = new Mornar();
+
+    private static class Mornar{
+
+    }
 
     public Brod() {
     }
@@ -14,4 +18,17 @@ public class Brod {
         this.naziv = naziv;
         this.kapetan = kapetan;
     }
+
+    public int dohvBr(){
+        return this.brojposade;
+    }
+
+    public Mornar dohvatiKapetana(){
+        return this.kapetan;
+    }
+
+    public Mornar dohvMorn(int poz){
+        
+    }
+
 }
