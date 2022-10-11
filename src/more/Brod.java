@@ -2,12 +2,15 @@ package more;
 import java.lang.*;
 
 public class Brod {
-    int brojposade;
-    String naziv;
-    Mornar kapetan = new Mornar();
+    public int brojposade;
+    public String naziv;
+    public Mornar kapetan = new Mornar();
 
-    private static class Mornar{
+    public int kapacitet;
 
+    private static class MornarElement{
+        Mornar x;
+        MornarElement next;
     }
 
     public Brod() {
@@ -27,8 +30,12 @@ public class Brod {
         return this.kapetan;
     }
 
-    public Mornar dohvMorn(int poz){
-        
+    /*public Mornar dohvMorn(int poz){
+
+    }*/
+
+    public Mornar dodajMorn(Mornar a){
+
     }
 
 }
