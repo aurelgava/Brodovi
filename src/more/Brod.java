@@ -14,8 +14,4 @@ public class Brod {
         this.naziv = naziv;
         this.kapetan = kapetan;
     }
-
-
-
-
 }
